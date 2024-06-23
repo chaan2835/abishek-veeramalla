@@ -1,0 +1,20 @@
+Install these two extensions in vscode editor yaml and ansible
+configuring ansible in control node (ubuntu)
+
+sudo apt update
+sudo apt install python3-pip
+    check for python3 version
+        python3 -m pip -V
+        pip 24.0 from /usr/lib/python3/dist-packages/pip (python 3.12)
+sudo apt install ansible
+check ansible version
+ansible --version
+ansible [core 2.16.3]
+  config file = None
+  configured module search path = ['/root/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+  ansible python module location = /usr/lib/python3/dist-packages/ansible
+  ansible collection location = /root/.ansible/collections:/usr/share/ansible/collections
+  executable location = /usr/bin/ansible
+  python version = 3.12.3 (main, Apr 10 2024, 05:33:47) [GCC 13.2.0] (/usr/bin/python3)
+  jinja version = 3.1.2
+  libyaml = True
